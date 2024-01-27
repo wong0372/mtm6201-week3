@@ -74,7 +74,7 @@ form button {
 
 /* Fix contrast */
 a:focus{
-  outline: 5px solid #0011FF;
+  outline: 5px solid red;
   background-color: #0011FF;
 }
 
@@ -85,7 +85,7 @@ footer a {
   padding:10px;
 }
 
-textarea:focus, input:focus {
+button:focus, textarea:focus, input:focus {
   outline: 3px solid #0011FF;
 }
 
